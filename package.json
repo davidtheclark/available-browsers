@@ -1,0 +1,41 @@
+{
+  "name": "locate-browsers",
+  "version": "0.1.0",
+  "description": "Find browsers on your system",
+  "main": "index.js",
+  "bin": {
+    "locate-browsers": "bin.js"
+  },
+  "author": {
+    "name": "David Clark",
+    "email": "david.dave.clark@gmail.com",
+    "url": "http://davidtheclark.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "es6-promise": "^2.0.0",
+    "locate-chrome": "0.1.0",
+    "locate-firefox": "0.1.0",
+    "locate-ie": "0.2.0",
+    "locate-safari": "0.2.0",
+    "queue-async": "^1.0.0"
+  },
+  "homepage": "https://github.com/davidtheclark/locate-browsers",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidtheclark/locate-browsers.git"
+  },
+  "bugs": {
+    "url": "https://github.com/davidtheclark/locate-browsers/issues"
+  },
+  "keywords": [
+    "chrome",
+    "google-chrome",
+    "firefox",
+    "safari",
+    "internet-explorer",
+    "browser",
+    "locate",
+    "find"
+  ]
+}
